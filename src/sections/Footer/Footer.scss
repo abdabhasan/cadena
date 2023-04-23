@@ -1,0 +1,29 @@
+.cadena__footer {
+  .cadena__footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .cadena__footer-container_logo {
+      .logo {
+        position: absolute;
+        transform: translateY(-50%);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .cadena__footer {
+    .cadena__footer-container {
+      height: 250px !important;
+      flex-direction: column !important;
+      justify-content: space-evenly;
+      .cadena__footer-container_logo {
+        .logo {
+          position: unset;
+        }
+      }
+    }
+  }
+}

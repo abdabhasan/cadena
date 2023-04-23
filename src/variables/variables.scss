@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
+// fonts
+$font-family: "Manrope", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+// colors
+$primary-color: #712fff;
+$secondary-color: #1b1c20;
+
+// ...... backgrounds
+$background-color: #060809;
+$color-bg: $background-color;
+$color-bg-discount: #f9f5ff;
+$color-card: $secondary-color;
+
+// ....... sections
+$color-footer: $background-color;
+$color-section: $secondary-color;
+
+// ....... texts
+$color-text: #fff;
+$color-subtext: #e7e7e7;
+$color-specialText: $primary-color;
+$color-discount-text: #6941c6;

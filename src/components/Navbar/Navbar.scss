@@ -1,0 +1,112 @@
+@import "../../variables/variables.scss";
+.cadena__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 6rem;
+
+  .cadena__navbar-links_container p,
+  .cadena__navbar-sign p,
+  .cadena__navbar-menu_container p {
+    color: #fff;
+    font-family: $font-family;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
+  }
+  .cadena__navbar-sign button,
+  .cadena__navbar-menu_container button {
+    padding: 0.5rem 1rem;
+    color: #383a47;
+    background: #fff;
+    font-family: $font-family;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  .cadena__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+    .cadena__navbar-links_logo {
+      margin-right: 1rem;
+    }
+
+    .cadena__navbar-links_container {
+      display: flex;
+    }
+  }
+  .cadena__navbar-sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .cadena__navbar-menu {
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+    svg {
+      cursor: pointer;
+    }
+    .cadena__navbar-menu_container {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      flex-direction: column;
+      text-align: end;
+      background: $color-footer;
+      padding: 2rem;
+      margin-top: 1rem;
+      position: absolute;
+      top: 40px;
+      right: 0;
+      min-width: 210px;
+      border-radius: 5px;
+      box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+      p {
+        margin: 1rem 0;
+      }
+      .cadena__navbar-menu_container-links-sign {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .cadena__navbar-links_container {
+    display: none !important;
+  }
+  .cadena__navbar-menu {
+    display: flex !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cadena__navbar {
+    padding: 2rem 4rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .cadena__navbar {
+    padding: 2rem;
+    .cadena__navbar-sign {
+      display: none;
+    }
+  }
+  .cadena__navbar-menu_container {
+    top: 20px !important;
+    .cadena__navbar-menu_container-links-sign {
+      display: block !important;
+    }
+  }
+}

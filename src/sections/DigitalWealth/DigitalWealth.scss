@@ -1,0 +1,16 @@
+@import "../../variables/variables.scss";
+.cadena__wealth {
+  .cadena__wealth-heading {
+    font-family: $font-family;
+    color: $color-text;
+    margin-bottom: 2rem;
+
+    text-align: center;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 51px;
+    span {
+      color: $color-specialText;
+    }
+  }
+}

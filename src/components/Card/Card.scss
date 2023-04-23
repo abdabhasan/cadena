@@ -1,0 +1,61 @@
+@import "../../variables/variables.scss";
+.cadena__wealth-container_card {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  background: $color-card;
+  border-radius: 23.8369px;
+
+  align-items: center;
+  text-align: center;
+
+  box-shadow: 0px 1.98641px 3.97282px rgba(68, 55, 0, 0.01);
+
+  .cadena__wealth-container_card-heading {
+    h3 {
+      font-family: $font-family;
+      font-weight: 800;
+      font-size: 25.11px;
+      line-height: 30px;
+
+      color: $color-specialText;
+      margin: 2rem 0;
+      cursor: pointer;
+    }
+  }
+  .cadena__wealth-container_card-image {
+    width: 100%;
+    height: 100%;
+    background: $color-card;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cadena__wealth-container_card-content {
+    p {
+      max-width: 270px;
+
+      margin: 2rem 0;
+
+      font-family: $font-family;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 20px;
+      color: $color-subtext;
+      &:last-child {
+        cursor: pointer;
+      }
+    }
+  }
+}
+@media screen and (max-width: 576px) {
+  .cadena__wealth-container_card-content {
+    h3 {
+      font-size: 18px;
+      line-height: 25px;
+    }
+  }
+}
