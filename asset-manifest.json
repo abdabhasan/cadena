@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/cadena/static/css/main.a1070a3e.css",
+    "main.js": "/cadena/static/js/main.6058a345.js",
+    "static/media/cards.png": "/cadena/static/media/cards.a4a292aaee8210e833c7.png",
+    "static/media/card5.png": "/cadena/static/media/card5.2f1170065d92440584b5.png",
+    "static/media/card(4).png": "/cadena/static/media/card(4).742629e51010d5af3866.png",
+    "static/media/card(2).png": "/cadena/static/media/card(2).e973dd43c16e6eac4d95.png",
+    "static/media/card(1).png": "/cadena/static/media/card(1).e2ae7312cb90e5116e62.png",
+    "static/media/card(3).png": "/cadena/static/media/card(3).df058708554f8c70ddc9.png",
+    "static/media/card.png": "/cadena/static/media/card.658c1cec61066c91fe51.png",
+    "static/media/card(5).png": "/cadena/static/media/card(5).a9f3fe61875d92114e66.png",
+    "static/media/logo.svg": "/cadena/static/media/logo.3ba4a58c298cfc9df1c82310fb93ffbc.svg",
+    "index.html": "/cadena/index.html",
+    "main.a1070a3e.css.map": "/cadena/static/css/main.a1070a3e.css.map",
+    "main.6058a345.js.map": "/cadena/static/js/main.6058a345.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1070a3e.css",
+    "static/js/main.6058a345.js"
+  ]
+}
